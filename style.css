@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(16, 199, 255);
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: rgb(248, 248, 249);
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.15);
+    
+}
+
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:rgb(0, 0, 0);
+    padding: 3px;
+}
+
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px dashed #fff;
+    
+}
+
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.profile-img{
+    cursor: url(profile.jpg),auto;
+    transition: transform 0.3s ease;
+    
+}
+
+.profile-img:hover{ 
+    transform: rotate(1000deg);   
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.profille-buttons{
+    margin-top: 15px;
+    
+    
+    
+    
+    transition: 0.3s;
+}
+
+.profille-buttons a{
+    text-decoration: none;
+    color: rgb(4, 2, 0);
+    background-color: rgb(200, 227, 220);
+    padding: 2px;
+    border-radius: 24px;
+    
+
+}
