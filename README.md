@@ -15,8 +15,3 @@ HTML & CSS ile geliştirdiğim profil kartı mini projesi.
 - Responsive temel yapı
 - Portföy sitesine yönlendirme
 
-## Proje Görseli
-[ekran görüntüsü]
-
-## Live Demo
-[GitHub Pages linki]
